@@ -31,7 +31,7 @@ int main(){
 
 bool is_palindrome(char *str){
     if(!*str)
-        return true; // empty string is assumed as palindorme
+        return true; // empty string is assumed as palindrome
     else{
         char *head, *tail;
         head = tail = str;
